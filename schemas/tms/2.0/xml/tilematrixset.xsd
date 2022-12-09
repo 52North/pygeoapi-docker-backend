@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tms="http://www.opengis.net/tms/2.0" xmlns:tmsc="http://www.opengis.net/tms/2.0/common" targetNamespace="http://www.opengis.net/tms/2.0" elementFormDefault="qualified" xml:lang="en" version="2.0.0">
+	<annotation>
+		<appinfo>TileMatrixSet 2021-02-02</appinfo>
+		<documentation>
+			This XML Schema Document encodes the TileMatrixSet data structures.
+
+			OGC TMS 2.0 is an OGC Standard.
+			Copyright (c) 2022 Open Geospatial Consortium.
+			To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
+		</documentation>
+	</annotation>
+	<!-- *********************************************************************
+	             Includes and imports.
+          ********************************************************************* -->
+	<!--import namespace="http://www.w3.org/1999/xlink" schemaLocation="../../../xlink/1.0.0/xlinks.xsd"/-->
+	<import namespace="http://www.opengis.net/tms/2.0/common" schemaLocation="common.xsd"/>
+	<!-- ********************************************************************* -->
+	<!-- **  The TileMatrixSet element.                                         ** -->
+	<!-- ********************************************************************* -->
+	<element name="TileMatrixSet">
+		<annotation>
+			<documentation>Describes a particular set of tile matrices.</documentation>
+		</annotation>
+		<complexType>
+			<complexContent>
+				<extension base="tmsc:DescriptionType">
+					<sequence>
+						<element ref="tmsc:Identifier" minOccurs="0">
+							<annotation>
+								<documentation>Tile matrix set identifier</documentation>
+							</annotation>
+						</element>
+						<element name="uri" type="anyURI" minOccurs="0">
+							<annotation>
+								<documentation>Reference to an official source for this tileMatrixSet</documentation>
+							</annotation>
+						</element>
+						<element ref="tmsc:BoundingBox" minOccurs="0">
+							<annotation>
+								<documentation>
+									Minimum bounding rectangle surrounding
+									the visible layer presented by this tile matrix
+									set, in the supported CRS </documentation>
+							</annotation>
+						</element>
+						<element ref="tmsc:CRS">
+							<annotation>
+								<documentation>Reference to one coordinate reference
+								system (CRS).</documentation>
+							</annotation>
+						</element>
+						<element name="OrderedAxes" type="string" minOccurs="0">
+							<annotation>
+								<documentation>
+									Names of dimensions in this CRS, separated by a comma.
+                           These names are specified by the CRS definition,
+                           but can also be specified here to avoid any ambiguity.
+                        </documentation>
+							</annotation>
+						</element>
+						<element name="WellKnownScaleSet" type="anyURI" minOccurs="0">
+							<annotation>
+								<documentation>Reference to a well known scale set.
+									http://www.opengis.net/def/wkss/OGC/1.0/GlobalCRS84Scale,
+									http://www.opengis.net/def/wkss/OGC/1.0/GlobalCRS84Pixel,
+									http://www.opengis.net/def/wkss/OGC/1.0/GoogleCRS84Quad,
+									http://www.opengis.net/def/wkss/OGC/1.0/GoogleMapsCompatible and
+									http://www.opengis.net/def/wkss/OGC/1.0/WorldMercatorWGS84 are
+								possible values that are defined in Annex C. It has to be consistent with the
+								crs and with the ScaleDenominators of the TileMatrix elements.
+								</documentation>
+							</annotation>
+						</element>
+						<element ref="tms:TileMatrix" maxOccurs="unbounded">
+							<annotation>
+								<documentation>Describes a scale level and its tile matrix.</documentation>
+							</annotation>
+						</element>
+						<any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
+							<annotation>
+								<documentation>This is an extension point for other properties in the TileMatrixSet.</documentation>
+							</annotation>
+						</any>
+					</sequence>
+					<attribute name="id" type="string">
+						<annotation>
+							<documentation/>
+						</annotation>
+					</attribute>
+				</extension>
+			</complexContent>
+		</complexType>
+	</element>
+	<!-- ********************************************************************* -->
+	<!-- **  The TileMatrix element.                                                ** -->
+	<!-- ********************************************************************* -->
+	<element name="TileMatrix">
+		<annotation>
+			<documentation>Describes a particular tile matrix.</documentation>
+		</annotation>
+		<complexType>
+			<complexContent>
+				<extension base="tmsc:DescriptionType">
+					<sequence>
+						<element ref="tmsc:Identifier">
+							<annotation>
+								<documentation>Tile matrix identifier. Typically an abreviation of
+								the ScaleDenominator value or its equivalent pixel size</documentation>
+							</annotation>
+						</element>
+						<element name="ScaleDenominator" type="double">
+							<annotation>
+								<documentation>Scale denominator of this tile matrix</documentation>
+							</annotation>
+						</element>
+						<element name="CellSize" type="double">
+							<annotation>
+								<documentation>Cell size of this tile matrix</documentation>
+							</annotation>
+						</element>
+						<element name="CornerOfOrigin" minOccurs="0">
+							<annotation>
+								<documentation>
+									The corner of the tile matrix (_topLeft_ or _bottomLeft_) used as the origin for numbering tile rows and columns. This corner is also a corner of the (0, 0) tile.
+								</documentation>
+							</annotation>
+							<simpleType>
+								<restriction base="string">
+									<enumeration value="topLeft"/>
+									<enumeration value="bottomLeft"/>
+								</restriction>
+							</simpleType>
+						</element>
+						<element name="PointOfOrigin" type="tmsc:PositionType">
+							<annotation>
+								<documentation>
+									Precise position in CRS coordinates of the corner of origin (e.g. the top-left corner) for this tile matrix.
+									This position is also a corner of the (0, 0) tile.
+									In previous version, this was 'topLeftCorner' and 'cornerOfOrigin' did not exist.
+								</documentation>
+							</annotation>
+						</element>
+						<element name="TileWidth" type="positiveInteger">
+							<annotation>
+								<documentation>Width of each tile of this tile matrix in pixels.</documentation>
+							</annotation>
+						</element>
+						<element name="TileHeight" type="positiveInteger">
+							<annotation>
+								<documentation>Height of each tile of this tile matrix in pixels</documentation>
+							</annotation>
+						</element>
+						<element name="MatrixWidth" type="positiveInteger">
+							<annotation>
+								<documentation>Width of the matrix (number of tiles in width)</documentation>
+							</annotation>
+						</element>
+						<element name="MatrixHeight" type="positiveInteger">
+							<annotation>
+								<documentation>Height of the matrix (number of tiles in height)</documentation>
+							</annotation>
+						</element>
+						<element name="VariableMatrixWidth" minOccurs="0" maxOccurs="unbounded">
+							<annotation>
+								<documentation>The rows mention in this array apply the coalece mechanims to fuse n contiguous tiles in the width axis into a single tile</documentation>
+							</annotation>
+							<complexType>
+								<sequence>
+									<element name="Coalesce" type="positiveInteger">
+										<annotation>
+											<documentation>Number of tiles in width that coalesce in a single tile for these rows</documentation>
+										</annotation>
+									</element>
+									<element name="MinTileRow" type="nonNegativeInteger">
+										<annotation>
+											<documentation>First tile row where the coalescence factor applies for this tilematrix</documentation>
+										</annotation>
+									</element>
+									<element name="MaxTileRow" type="nonNegativeInteger">
+										<annotation>
+											<documentation>Last tile row where the coalescence factor applies for this tilematrix</documentation>
+										</annotation>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+						<any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
+							<annotation>
+								<documentation>This is an extension point for other properties in the TileMatrix.</documentation>
+							</annotation>
+						</any>
+					</sequence>
+				</extension>
+			</complexContent>
+		</complexType>
+	</element>
+</schema>

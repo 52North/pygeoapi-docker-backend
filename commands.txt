@@ -1,0 +1,19 @@
+#Check Config
+pygeoapi config validate --config C:/Daten/pyGeoAPICFG.yml
+
+#Generate OpenAPIDoc
+pygeoapi openapi generate C:/Daten/pyGeoAPICFG.yml 
+
+#Check API Description
+pygeoapi openapi validate C:/Daten/pyGeoAPIOpenAPIDESC.yml
+
+#run Docker
+docker run -p 5000:80 -it ghcr.io/geopython/pygeoapi run
+
+docker run –mount type=bind,src=C:/Daten/geoserver_data ,target=/opt/geoserver_data -it -p8080:8080 thinkwhere/geoserver
+
+#POST
+
+curl -X POST "http://localhost:5000/processes/docker/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"test\": \"hi there\"}}"
+
+

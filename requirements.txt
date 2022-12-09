@@ -1,0 +1,15 @@
+elasticsearch<8
+elasticsearch-dsl<8
+gdal
+#fiona
+netCDF4
+pandas; python_version < '3.7'
+pandas==1.2.5; python_version >= '3.7'
+psycopg2
+pygeometa
+pymongo==3.10.1
+scipy
+sodapy
+xarray
+zarr
+docker

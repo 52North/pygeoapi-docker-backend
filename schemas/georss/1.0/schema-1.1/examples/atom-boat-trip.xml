@@ -1,0 +1,46 @@
+<feed xmlns=“http://www.w3.org/2005/Atom”
+      xmlns:georss=“http://www.georss.org/georss”
+      xmlns:gml=“http://www.opengis.net/gml”>
+   <title>Dino’s Mt. Washington trip</title>
+   <link href=“http://www.myisp.com/dbv/”/>
+   <updated>2005-12-13T18:30:02Z</updated>
+ 
+   <author>
+      <name>Dino Bravo</name>
+      <email>dbv@example.org</email>
+   </author>
+   <id>http://www.myisp.com/dbv/</id>
+ 
+   <georss:where>
+      <gml:LineString>
+         <gml:posList>
+            44.2706 -71.3033 44.279 -71.2872 44.274 –71.2997 44.27 -71.302
+         </gml:posList>
+      </gml:LineString>
+   </georss:where>
+   <entry>
+      <title>Setting off</title>
+      <link href=“http://www.myisp.com/dbv/1”/>
+      <id>http://www.myisp.com/dbv/1</id>
+      <updated>2005-08-17T07:02:32Z</updated>
+      <content>getting ready to take the mountain!</content>
+      <georss:where>
+         <gml:Point>
+            <gml:pos> 44.2706 -71.3033</gml:pos>
+         </gml:Point>
+      </georss:where>
+   </entry>
+   <entry>
+      <title>Crossing Cutler River</title>
+      <link href=“http://www.myisp.com/dbv/2”/>
+      <id>http://www.myisp.com/dbv/2</id>
+      <updated>2005-08-15T07:02:32Z</updated>
+      <content>Check out the salamanders here</content>
+ 
+      <georss:where>
+         <gml:Point>
+            <gml:pos>44.263 -71.2757</gml:pos>
+         </gml:Point>
+      </georss:where>
+   </entry>
+</feed>

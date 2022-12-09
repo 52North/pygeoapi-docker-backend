@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tms="http://www.opengis.net/tms/2.0" targetNamespace="http://www.opengis.net/tms/2.0" elementFormDefault="qualified" xml:lang="en" version="2.0.0">
+	<annotation>
+		<appinfo>tilematrixlimits.xsd 2021-02-02</appinfo>
+		<documentation>
+			This XML Schema Document encodes the TileMatrisSet data structures.
+
+			OGC TMS 2.0 is an OGC Standard.
+			Copyright (c) 2022 Open Geospatial Consortium.
+			To obtain additional rights of use, visit http://www.opengeospatial.org/legal/ .
+		</documentation>
+	</annotation>
+	<!-- *********************************************************************
+	             Includes and imports.
+          ********************************************************************* -->
+	<!--import namespace="http://www.w3.org/1999/xlink" schemaLocation="../../../xlink/1.0.0/xlinks.xsd"/-->
+	<!-- ****************************************************************************************** -->
+	<!-- **  TileMatrixSetLimits and TileMatrixLimits element.                                  ** -->
+	<!-- ****************************************************************************************** -->
+	<element name="TileMatrixSetLimit">
+		<annotation>
+			<documentation>Metadata describing the limits of a TileMatrix 
+						for this layer.</documentation>
+		</annotation>
+		<complexType>
+			<sequence>
+				<element name="TileMatrix" type="string">
+					<annotation>
+						<documentation>Reference to a TileMatrix identifier</documentation>
+					</annotation>
+				</element>
+				<element name="MinTileRow" type="nonNegativeInteger">
+					<annotation>
+						<documentation>Minimum tile row index valid for this 
+						layer. From 0 to maxTileRow</documentation>
+					</annotation>
+				</element>
+				<element name="MaxTileRow" type="nonNegativeInteger">
+					<annotation>
+						<documentation>Maximim tile row index valid for this 
+						layer. From minTileRow to matrixWidth-1 of the tileMatrix 
+						section of this tileMatrixSet</documentation>
+					</annotation>
+				</element>
+				<element name="MinTileCol" type="nonNegativeInteger">
+					<annotation>
+						<documentation>Minimum tile column index valid for this 
+						layer. From 0 to maxTileCol</documentation>
+					</annotation>
+				</element>
+				<element name="MaxTileCol" type="nonNegativeInteger">
+					<annotation>
+						<documentation>Maximim tile column index valid for this layer. 
+						From minTileCol to tileHeight-1 of the tileMatrix section 
+						of this tileMatrixSet.</documentation>
+					</annotation>
+				</element>
+				<any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded">
+					<annotation>
+						<documentation>This is an extension point for other properties in the TileMatrixLimits.</documentation>
+					</annotation>
+				</any>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

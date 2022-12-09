@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:georss="http://www.georss.org/georss/10" targetNamespace="http://www.georss.org/georss/10" xmlns:gml="http://www.opengis.net/gml" elementFormDefault="qualified" version="1.0">
+    <xs:import namespace="http://www.opengis.net/gml" schemaLocation="gmlgeorss.xsd"/>
+    
+    <xs:element name="where">
+      <xs:annotation>
+          <xs:documentation>Root property element of a GeoRSS GML instance</xs:documentation>
+          <xs:documentation>Container for optional GeoRSS attributes</xs:documentation>
+      </xs:annotation>
+    <xs:complexType>
+        <xs:choice>
+            <xs:element ref="gml:Point"/>
+            <xs:element ref="gml:LineString"/>
+            <xs:element ref="gml:Polygon"/>
+            <xs:element ref="gml:Envelope"/>
+        </xs:choice>
+        <xs:attributeGroup ref="georss:whereAttrGroup"/>
+    </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="point" type="georss:SimplePositionType">
+      <xs:annotation>
+          <xs:documentation>Point property element containing a pair of coordinates representing latitude then longitude in the WGS84 coordinate reference system</xs:documentation>
+          <xs:documentation>This GeoRSS Simple element maps completely onto the where + gml:Point combination of GeoRSS GML</xs:documentation>
+      </xs:annotation>
+    </xs:element>
+    
+    <xs:element name="line" type="georss:SimplePositionType">
+      <xs:annotation>
+          <xs:documentation>Line property element containing a list of pairs of coordinates representing latitude then longitude in the WGS84 coordinate reference system</xs:documentation>
+          <xs:documentation>This GeoRSS Simple element maps completely onto the where + gml:LineString combination of GeoRSS GML</xs:documentation>
+      </xs:annotation>
+    </xs:element>
+    
+    <xs:element name="polygon" type="georss:SimplePositionType">
+      <xs:annotation>
+          <xs:documentation>Closed ring property element containing a list of pairs of coordinates (first pair and last pair identical) representing latitude then longitude in the WGS84 coordinate reference system</xs:documentation>
+          <xs:documentation>This GeoRSS Simple element maps completely onto the where + gml:Polygon combination of GeoRSS GML</xs:documentation>
+      </xs:annotation>
+    </xs:element>
+    
+    <xs:element name="box" type="georss:SimplePositionType">
+      <xs:annotation>
+          <xs:documentation>Rectangular envelope property element containing two pairs of coordinates (lower left envelope corner, upper right envelope corner) representing latitude then longitude in the WGS84 coordinate reference system</xs:documentation>
+          <xs:documentation>This GeoRSS Simple element maps completely onto the where + gml:Envelope combination of GeoRSS GML</xs:documentation>
+      </xs:annotation>
+    </xs:element>
+    
+       <!-- ================================================= -->
+       
+   <xs:complexType name="SimplePositionType">
+      <xs:simpleContent>
+      <xs:annotation>
+          <xs:documentation>Extended doubleList with the addition of GeoRSS where attributes</xs:documentation>
+      </xs:annotation>
+			
+      <xs:extension base="georss:doubleList">
+          <xs:attributeGroup ref="georss:whereAttrGroup"/>
+      </xs:extension>
+      </xs:simpleContent>
+   </xs:complexType>
+ 
+      <!-- ================================================= -->
+ 
+  <xs:simpleType name="doubleList">
+      <xs:annotation>
+         <xs:documentation>XML List based on XML Schema double type, identical to gml:doubleList.  An element of this type contains a space-separated list of double values</xs:documentation>
+      </xs:annotation>
+      <xs:list itemType="xs:double"/>
+   </xs:simpleType>
+
+       <!-- ================================================= -->
+ 
+     <xs:attributeGroup name="whereAttrGroup">
+       <xs:annotation>
+         <xs:documentation>Optional additional parameters for a georss location property </xs:documentation>
+       </xs:annotation>
+		
+       <xs:attribute name="featuretypetag" type="xs:NCName" use="optional">
+         <xs:annotation>		
+            <xs:documentation>Optional where attribute indicating the type of geographic entity is being referred to. Default is &quot;location&quot;</xs:documentation>
+         </xs:annotation>
+       </xs:attribute>
+		
+       <xs:attribute name="relationshiptag" type="xs:NCName" use="optional">
+         <xs:annotation>		
+            <xs:documentation>Optional where attribute indicating how geotagged content is related to the represented location. Default is &quot;isLocatedAt&quot;</xs:documentation>
+         </xs:annotation>
+       </xs:attribute>
+		
+       <xs:attribute name="elev" type="xs:double" use="optional">
+         <xs:annotation>		
+            <xs:documentation>Optional where attribute indicating a GPS-measured elevation in meters (e.g. WGS84 geoid height)</xs:documentation>
+         </xs:annotation>
+       </xs:attribute>
+		
+       <xs:attribute name="floor" type="xs:double" use="optional">
+         <xs:annotation>		
+            <xs:documentation>Optional where attribute indicating elevation by building floor</xs:documentation>
+         </xs:annotation>
+       </xs:attribute>
+		
+       <xs:attribute name="radius" type="xs:double" use="optional">
+         <xs:annotation>		
+            <xs:documentation>Optional where attribute indicating size in meters of a radius or buffer being indicated around the geometry (e.g. radius of circular area around a point geometry </xs:documentation>
+         </xs:annotation>
+       </xs:attribute>
+		
+     </xs:attributeGroup>
+
+       <!-- ================================================= -->
+   
+</xs:schema>

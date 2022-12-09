@@ -1,0 +1,45 @@
+{% extends "_base.html" %}
+{% block title %}{{ super() }} stac/{{ data['path'] }} {% endblock %}
+{% block crumbs %}{{ super() }}
+/ <a href="{{ config['server']['url'] }}/stac">{% trans %}SpatioTemporal Asset Catalog{% endtrans %}</a>
+{% for link in get_breadcrumbs(data['path']) %}
+/ <a class="crumbs-path" href="{{config['server']['url'] }}/stac/{{ link['href'] }}">{{ link['title'] }}</a>
+{% endfor %}
+{% endblock %}
+
+{% block body %}
+
+  <section id="links">
+    <h2>Links</h2>
+    <table class="striped">
+      <thead>
+        <tr>
+          <th>{% trans %}Name{% endtrans %}</th>
+          <th>{% trans %}Last modified{% endtrans %}</th>
+          <th>{% trans %}Size{% endtrans %}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for link in data['links'] %}
+        {% if link['rel'] in ['child', 'item'] %}
+        <tr>
+          <td data-label="name">
+            {% if link['title'] %}
+            <a title="{{ link['href'] }}" href="{{ link['href'] }}"><span>{{ link['title'] | get_path_basename }}</span></a>
+            {% else %}
+            <a title="{{ link['href'] }}" href="{{ link['href'] }}"><span>{{ link['href'] | get_path_basename }}</span></a>
+            {% endif %}
+          </td>
+          <td data-label="created">{{ link['created'] }}</td>
+          {% if link['file:size'] %}
+          <td data-label="size">{{ link['file:size'] | human_size }}</td>
+          {% else %}
+          <td data-label="size">-</td>
+          {% endif %}
+        </tr>
+        {% endif %}
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+{% endblock %}
