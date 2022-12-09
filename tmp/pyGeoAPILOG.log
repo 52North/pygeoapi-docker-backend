@@ -1305,3 +1305,143 @@
 [2022-12-09T15:05:22Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
 [2022-12-09T15:05:22Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
 [2022-12-09T15:05:22Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [09/Dec/2022 15:05:22] "GET /jobs/118100b7-77c9-11ed-bb55-54e1ad4efa81?f=jsonld HTTP/1.1" 200 -
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: TinyDBManager
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-09T16:36:51Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-09T16:36:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-09T16:36:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-09T16:36:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-09T16:36:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-09T16:36:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: TinyDBManager
+[2022-12-09T16:36:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-09T16:36:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-09T16:36:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-09T16:37:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-09T16:37:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - identifier not found
+[2022-12-09T16:37:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [09/Dec/2022 16:37:11] "POST /processes/docker/execution HTTP/1.1" 404 -
+[2022-12-09T16:37:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-09T16:37:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - identifier not found
+[2022-12-09T16:37:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [09/Dec/2022 16:37:13] "POST /processes/docker/execution HTTP/1.1" 404 -
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor'}
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: DockerTestProcessor
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2751} DEBUG - {"mode": "async", "inputs":{"test": "hi there"}}
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2765} DEBUG - {'test': 'hi there'}
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2775} DEBUG - Asynchronous request mode detected
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2782} DEBUG - Executing process
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:270} DEBUG - Asynchronous execution
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [09/Dec/2022 16:37:24] "POST /processes/dockerTest/execution HTTP/1.1" 201 -
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:21} DEBUG - Trying paths: ['C:\\Users\\Alexander Pilz\\.docker\\config.json', 'C:\\Users\\Alexander Pilz\\.dockercfg']
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:25} DEBUG - Found file at path: C:\Users\Alexander Pilz\.docker\config.json
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:180} DEBUG - Found 'auths' section
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:132} DEBUG - Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:187} DEBUG - Found 'credsStore' section
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "GET /version HTTP/1.1" 200 None
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/create HTTP/1.1" 500 None
+[2022-12-09T16:37:24Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:238} ERROR - 500 Server Error for http+docker://localnpipe/v1.41/containers/create: Internal Server Error ("json: cannot unmarshal array into Go struct field ContainerConfigWrapper.Env of type string")
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor'}
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: DockerTestProcessor
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2751} DEBUG - {"mode": "async", "inputs":{"test": "hi there"}}
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2765} DEBUG - {'test': 'hi there'}
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2775} DEBUG - Asynchronous request mode detected
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2782} DEBUG - Executing process
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:270} DEBUG - Asynchronous execution
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [09/Dec/2022 16:39:00] "POST /processes/dockerTest/execution HTTP/1.1" 201 -
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:21} DEBUG - Trying paths: ['C:\\Users\\Alexander Pilz\\.docker\\config.json', 'C:\\Users\\Alexander Pilz\\.dockercfg']
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:25} DEBUG - Found file at path: C:\Users\Alexander Pilz\.docker\config.json
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:180} DEBUG - Found 'auths' section
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:132} DEBUG - Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:187} DEBUG - Found 'credsStore' section
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "GET /version HTTP/1.1" 200 None
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/create HTTP/1.1" 500 None
+[2022-12-09T16:39:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:238} ERROR - 500 Server Error for http+docker://localnpipe/v1.41/containers/create: Internal Server Error ("json: cannot unmarshal array into Go struct field ContainerConfigWrapper.Env of type string")
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: TinyDBManager
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-09T16:40:14Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-09T16:40:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-09T16:40:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-09T16:40:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-09T16:40:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-09T16:40:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: TinyDBManager
+[2022-12-09T16:40:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-09T16:40:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-09T16:40:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor'}
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: DockerTestProcessor
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2751} DEBUG - {"mode": "async", "inputs":{"test": "hi there"}}
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2765} DEBUG - {'test': 'hi there'}
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2775} DEBUG - Asynchronous request mode detected
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2782} DEBUG - Executing process
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:270} DEBUG - Asynchronous execution
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [09/Dec/2022 16:40:27] "POST /processes/dockerTest/execution HTTP/1.1" 201 -
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:21} DEBUG - Trying paths: ['C:\\Users\\Alexander Pilz\\.docker\\config.json', 'C:\\Users\\Alexander Pilz\\.dockercfg']
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:25} DEBUG - Found file at path: C:\Users\Alexander Pilz\.docker\config.json
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:180} DEBUG - Found 'auths' section
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:132} DEBUG - Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:187} DEBUG - Found 'credsStore' section
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "GET /version HTTP/1.1" 200 None
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/create HTTP/1.1" 500 None
+[2022-12-09T16:40:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:197} DEBUG - writing output to C:/Daten/Git/pygeoapi-docker-backend/tmp/dockerTest-ce1e74fa-77d7-11ed-90e3-54e1ad4efa81
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: TinyDBManager
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-09T16:41:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-09T16:41:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-09T16:41:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-09T16:41:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-09T16:41:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-09T16:41:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: TinyDBManager
+[2022-12-09T16:41:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-09T16:41:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-09T16:41:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:88} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor'}
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:100} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:101} DEBUG - class name: DockerTestProcessor
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2751} DEBUG - {"mode": "async", "inputs":{"test": "hi there"}}
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2765} DEBUG - {'test': 'hi there'}
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2775} DEBUG - Asynchronous request mode detected
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2782} DEBUG - Executing process
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:270} DEBUG - Asynchronous execution
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [09/Dec/2022 16:41:11] "POST /processes/dockerTest/execution HTTP/1.1" 201 -
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:21} DEBUG - Trying paths: ['C:\\Users\\Alexander Pilz\\.docker\\config.json', 'C:\\Users\\Alexander Pilz\\.dockercfg']
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:25} DEBUG - Found file at path: C:\Users\Alexander Pilz\.docker\config.json
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:180} DEBUG - Found 'auths' section
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:132} DEBUG - Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:187} DEBUG - Found 'credsStore' section
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "GET /version HTTP/1.1" 200 None
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/create HTTP/1.1" 201 None
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "GET /v1.41/containers/3acfa90bc8d23bbb5c5727b4c26035e9ac93fa8713a3573ab76e69f6d259951d/json HTTP/1.1" 200 None
+[2022-12-09T16:41:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/3acfa90bc8d23bbb5c5727b4c26035e9ac93fa8713a3573ab76e69f6d259951d/start HTTP/1.1" 204 0
+[2022-12-09T16:41:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:197} DEBUG - writing output to C:/Daten/Git/pygeoapi-docker-backend/tmp/dockerTest-e812e19a-77d7-11ed-9d18-54e1ad4efa81

@@ -14,6 +14,7 @@ docker run –mount type=bind,src=C:/Daten/geoserver_data ,target=/opt/geoserver
 
 #POST
 
-curl -X POST "http://localhost:5000/processes/docker/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"test\": \"hi there\"}}"
+curl -X POST "http://localhost:5000/processes/dockerTest/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"test\": \"hi there\"}}"
 
+docker exec -it osgeo/gdal bash
 
