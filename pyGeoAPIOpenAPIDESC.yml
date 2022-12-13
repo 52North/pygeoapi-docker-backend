@@ -302,10 +302,10 @@ paths:
       summary: Processes
       tags:
       - server
-  /processes/docker:
+  /processes/dockerTest:
     get:
       description: Test process for testing docker in conjuction with pygeoapi
-      operationId: describeDockerProcess
+      operationId: describeDockertestProcess
       parameters:
       - $ref: '#/components/parameters/f'
       responses:
@@ -315,11 +315,11 @@ paths:
           $ref: '#/components/responses/default'
       summary: Get process metadata
       tags:
-      - docker
-  /processes/docker/execution:
+      - dockerTest
+  /processes/dockerTest/execution:
     post:
       description: Test process for testing docker in conjuction with pygeoapi
-      operationId: executeDockerJob
+      operationId: executeDockertestJob
       requestBody:
         content:
           application/json:
@@ -341,9 +341,9 @@ paths:
           $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/ServerError.yaml
         default:
           $ref: '#/components/responses/default'
-      summary: Process test execution
+      summary: Process dockerTest execution
       tags:
-      - docker
+      - dockerTest
 servers:
 - description: This is a test instance
   url: http://localhost:5000/
@@ -356,4 +356,4 @@ tags:
 - description: SpatioTemporal Asset Catalog
   name: stac
 - description: Test process for testing docker in conjuction with pygeoapi
-  name: docker
+  name: dockerTest

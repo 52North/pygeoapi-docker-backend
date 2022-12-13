@@ -1,7 +1,7 @@
 import os
 
-test = os.environ['TEST']
+id = os.environ['id']
 
-fp = open('usr/src/process/result.txt', 'w')
-fp.write(test)
+fp = open('usr/src/process/data/result.txt', 'w')
+fp.write('id of the process: ' + str(id))
 fp.close()

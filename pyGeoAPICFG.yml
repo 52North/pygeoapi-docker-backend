@@ -12,8 +12,8 @@ server:
   limit: 100  # server limit on number of items to return
 
   templates: # optional configuration to specify a different set of templates for HTML pages. Recommend using absolute paths. Omit this to use the default provided templates
-    path: C:/Daten/Git/pygeoapi_riesgos/templates # path to templates folder containing the jinja2 template HTML files
-    static: C:/Daten/Git/pygeoapi_riesgos/static # path to static folder containing css, js, images and other static files referenced by the template
+    path: C:/Daten/Git/pygeoapi-docker-backend/templates # path to templates folder containing the jinja2 template HTML files
+    static: C:/Daten/Git/pygeoapi-docker-backend/static # path to static folder containing css, js, images and other static files referenced by the template
 
   map:  # leaflet map setup for HTML pages
       url: https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png
