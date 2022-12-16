@@ -12,8 +12,8 @@ server:
   limit: 100  # server limit on number of items to return
 
   templates: # optional configuration to specify a different set of templates for HTML pages. Recommend using absolute paths. Omit this to use the default provided templates
-    path: C:/Daten/Git/pygeoapi-docker-backend/templates # path to templates folder containing the jinja2 template HTML files
-    static: C:/Daten/Git/pygeoapi-docker-backend/static # path to static folder containing css, js, images and other static files referenced by the template
+    path: C:/Daten/Git/pygeoapi-mongodb-jobmanager/templates # path to templates folder containing the jinja2 template HTML files
+    static: C:/Daten/Git/pygeoapi-mongodb-jobmanager/static # path to static folder containing css, js, images and other static files referenced by the template
 
   map:  # leaflet map setup for HTML pages
       url: https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png
@@ -21,12 +21,12 @@ server:
 
   manager:  # optional OGC API - Processes asynchronous job management
       name: TinyDB  # plugin name (see pygeoapi.plugin for supported process_manager's)
-      connection: C:/Daten/Git/pygeoapi-docker-backend/tmp/pygeoapi-process-manager.db  # connection info to store jobs (e.g. filepath)
-      output_dir: C:/Daten/Git/pygeoapi-docker-backend/tmp/  # temporary file area for storing job results (files)
+      connection: C:/Daten/Git/pygeoapi-mongodb-jobmanager/tmp/pygeoapi-process-manager.db  # connection info to store jobs (e.g. filepath)
+      output_dir: C:/Daten/Git/pygeoapi-mongodb-jobmanager/tmp/  # temporary file area for storing job results (files)
   #ogc_schemas_location: C:/Daten/schemas/  # local copy of http://schemas.opengis.net
 logging:
     level: DEBUG  # the logging level (see https://docs.python.org/3/library/logging.html#logging-levels)
-    logfile: C:/Daten/Git/pygeoapi-docker-backend/tmp/pyGeoAPILOG.log  # the full file path to the logfile
+    logfile: C:/Daten/Git/pygeoapi-mongodb-jobmanager/tmp/pyGeoAPILOG.log  # the full file path to the logfile
 metadata:
     identification:
         title: pygeoapi 52°North Test Instance  # the title of the service
