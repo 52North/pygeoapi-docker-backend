@@ -1,0 +1,1089 @@
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-16T15:38:54Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-16T15:38:55Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:38:55Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:38:55Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:38:55Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:38:55Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:38:55Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:38:55Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-16T15:38:55Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:638} DEBUG - Creating links
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:38:59] "GET / HTTP/1.1" 200 -
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:38:59] "GET /static/css/default.css HTTP/1.1" 200 -
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:38:59] "GET /static/img/logo.png HTTP/1.1" 200 -
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:38:59] "GET /static/img/pygeoapi.png HTTP/1.1" 200 -
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:638} DEBUG - Creating links
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:38:59Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:38:59] "GET /?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:01] "GET /processes?f=html HTTP/1.1" 200 -
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:01] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:01] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:01] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:01] "GET /processes?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:04] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:04] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:04] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:04] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:39:04Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:04] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:06Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:07] "GET /processes/dockerTest HTTP/1.1" 200 -
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:07] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:07] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:07] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:07Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:07] "GET /processes/dockerTest?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:08] "GET /processes/test HTTP/1.1" 200 -
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:08] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:08] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:08] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:39:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:08] "GET /processes/test?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-16T15:39:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-16T15:39:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:39:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:39:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:39:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:39:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:39:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:39:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-16T15:39:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:638} DEBUG - Creating links
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:41] "GET / HTTP/1.1" 200 -
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:41] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:41] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:41] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:638} DEBUG - Creating links
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:41Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:41] "GET /?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:44] "GET /processes?f=html HTTP/1.1" 200 -
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:44] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:44] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:44] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:39:44Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:44] "GET /processes?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:39:46Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:46Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:46Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:46Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:39:46Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:39:46Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:46] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:47] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:47] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:47] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:39:47Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:39:47] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-16T15:40:33Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-16T15:40:34Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:40:34Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:40:34Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:40:34Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:40:34Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:40:34Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:40:34Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-16T15:40:34Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:40:35Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:36] "GET /processes?f=html HTTP/1.1" 200 -
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:36] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:36] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:36] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:36Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:36] "GET /processes?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:37] "GET /processes?f=html HTTP/1.1" 200 -
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:37] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:37] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:37] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:37Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:37] "GET /processes?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:38] "GET /processes?f=html HTTP/1.1" 200 -
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:38] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:38] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:38] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:40:38Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:40:38] "GET /processes?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-16T15:42:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-16T15:42:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:42:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:42:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:42:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:42:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:42:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:42:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-16T15:42:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-16T15:42:10Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:42:10Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:42:10Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:42:10Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:42:10Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:42:10Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:11] "GET /processes?f=html HTTP/1.1" 200 -
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:11] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:11] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:11] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.test
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TestProcessor
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 't'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:42:11Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:11] "GET /processes?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:12] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:12] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:12] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:12] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:42:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:12] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:15] "GET /processes/dockerTest HTTP/1.1" 200 -
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:15] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:15] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:15] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.dockerTest
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: DockerTestProcessor
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en' matches requested 'en-US'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'rel'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'title'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'href'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'hreflang'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'type'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'contentmediatype'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'test'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'directory'
+[2022-12-16T15:42:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:15] "GET /processes/dockerTest?f=jsonld HTTP/1.1" 200 -
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:19] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:19] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:19] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:19] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:42:19Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:42:19] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:43:09Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:43:10Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-16T15:43:10Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-16T15:43:12Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:12] "GET /favicon.ico HTTP/1.1" 404 -
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:13] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:13] "GET /static/css/default.css HTTP/1.1" 200 -
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:13] "GET /static/img/pygeoapi.png HTTP/1.1" 200 -
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:13] "GET /static/img/logo.png HTTP/1.1" 200 -
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:43:13Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:13] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:15] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:15] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:15] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:15] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:43:15Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:43:15] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2022-12-16T15:44:25Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:44:26Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:44:27Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:27] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:29] "GET /processes/era_critical_infrastructure_analysis HTTP/1.1" 404 -
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:29] "GET /static/css/default.css HTTP/1.1" 304 -
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:29] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:29] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\linked_data.py:60} DEBUG - Creating JSON-LD representation
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:3203} ERROR - Identifier not found
+[2022-12-16T15:44:29Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [16/Dec/2022 15:44:29] "GET /processes/era_critical_infrastructure_analysis?f=jsonld HTTP/1.1" 404 -

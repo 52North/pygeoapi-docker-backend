@@ -14,10 +14,10 @@ PROCESS_METADATA = {
     'version': '0.0.1',
     'id': 'era_critical_infrastructure_analysis',
     'title': {
-        'en': 'dockerTest'
+        'en': 'era_critical_infrastructure_analysis'
     },
     'description': {
-        'en': 'Test process for testing docker in conjuction with pygeoapi'
+        'en': 'Test process for testing docker in conjuction with pygeoapi and RIESGOS'
     },
     'keywords': ['docker', 'test'],
     'links': [{

@@ -148,11 +148,11 @@ paths:
       - $ref: '#/components/parameters/lang'
       responses:
         '200':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/LandingPage      
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/LandingPage
         '400':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/InvalidParameter 
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/InvalidParameter
         '500':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/ServerError      
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/ServerError
       summary: Landing page
       tags:
       - server
@@ -165,11 +165,11 @@ paths:
       - $ref: '#/components/parameters/lang'
       responses:
         '200':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/Collections      
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/Collections
         '400':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/InvalidParameter 
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/InvalidParameter
         '500':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/ServerError      
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/ServerError
       summary: Collections
       tags:
       - server
@@ -182,11 +182,11 @@ paths:
       - $ref: '#/components/parameters/lang'
       responses:
         '200':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/ConformanceDeclaration
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/ConformanceDeclaration     
         '400':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/InvalidParameter 
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/InvalidParameter
         '500':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/ServerError      
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/ServerError
       summary: API conformance definition
       tags:
       - server
@@ -282,7 +282,7 @@ paths:
         '200':
           $ref: '#/components/responses/200'
         '400':
-          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/InvalidParameter 
+          $ref: http://schemas.opengis.net\ogcapi/features/part1/1.0/openapi/ogcapi-features-1.yaml#/components/responses/InvalidParameter
         default:
           $ref: '#/components/responses/default'
       summary: This document
@@ -302,6 +302,49 @@ paths:
       summary: Processes
       tags:
       - server
+  /processes/cia:
+    get:
+      description: Test process for testing docker in conjuction with pygeoapi
+      operationId: describeCiaProcess
+      parameters:
+      - $ref: '#/components/parameters/f'
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        default:
+          $ref: '#/components/responses/default'
+      summary: Get process metadata
+      tags:
+      - cia
+  /processes/cia/execution:
+    post:
+      description: Test process for testing docker in conjuction with pygeoapi
+      operationId: executeCiaJob
+      requestBody:
+        content:
+          application/json:
+            example:
+              inputs:
+                directory: someabsolutepath
+                test: some value
+            schema:
+              $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/execute.yaml
+        description: Mandatory execute request JSON
+        required: true
+      responses:
+        '200':
+          $ref: '#/components/responses/200'
+        '201':
+          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/ExecuteAsync.yaml
+        '404':
+          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/NotFound.yaml
+        '500':
+          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/ServerError.yaml
+        default:
+          $ref: '#/components/responses/default'
+      summary: Process dockerTest execution
+      tags:
+      - cia
   /processes/dockerTest:
     get:
       description: Test process for testing docker in conjuction with pygeoapi
@@ -402,3 +445,5 @@ tags:
   name: dockerTest
 - description: Test process for testing the job manager
   name: test
+- description: Test process for testing docker in conjuction with pygeoapi
+  name: cia
