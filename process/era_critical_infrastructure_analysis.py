@@ -12,9 +12,9 @@ LOGGER = logging.getLogger(__name__)
 #: Process metadata and description
 PROCESS_METADATA = {
     'version': '0.0.1',
-    'id': 'era_critical_infrastructure_analysis',
+    'id': 'cia',
     'title': {
-        'en': 'era_critical_infrastructure_analysis'
+        'en': 'cia'
     },
     'description': {
         'en': 'Test process for testing docker in conjuction with pygeoapi and RIESGOS'
