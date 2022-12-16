@@ -1,0 +1,4 @@
+curl -X POST "http://localhost:5000/processes/test/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"t\": \"hi there\"}}"
+
+docker exec -it osgeo/gdal bash
+
