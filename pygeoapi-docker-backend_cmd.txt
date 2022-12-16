@@ -1,3 +1,7 @@
+#Umgebunsgvariablen
+SET PYGEOAPI_CONFIG=C:/Daten/Git/pygeoapi-docker-backend/pyGeoAPICFG.yml
+SET PYGEOAPI_OPENAPI=C:/Daten/Git/pygeoapi-docker-backend/pyGeoAPIOpenAPIDESC.yml
+
 #Check Config
 pygeoapi config validate --config C:/Daten/Git/pygeoapi-docker-backend/pyGeoAPICFG.yml
 
@@ -15,6 +19,8 @@ docker run –mount type=bind,src=C:/Daten/geoserver_data ,target=/opt/geoserver
 #POST
 
 curl -X POST "http://localhost:5000/processes/dockerTest/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"test\": \"hi there\", \"directory\": \"C:/Daten/Results\"}}"
+
+curl -X POST "http://localhost:5000/processes/test/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"t\": \"hi there\"}}"
 
 docker exec -it osgeo/gdal bash
 

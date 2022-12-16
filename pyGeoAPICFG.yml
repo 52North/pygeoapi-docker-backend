@@ -65,3 +65,7 @@ resources:
         type: process  # REQUIRED (collection, process, or stac-collection)
         processor:
             name: dockerTest  # Python path of process defition
+    test:  # name of process
+        type: process  # REQUIRED (collection, process, or stac-collection)
+        processor:
+            name: test  # Python path of process defition

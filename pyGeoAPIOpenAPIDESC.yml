@@ -325,6 +325,7 @@ paths:
           application/json:
             example:
               inputs:
+                directory: someabsolutepath
                 test: some value
             schema:
               $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/execute.yaml
