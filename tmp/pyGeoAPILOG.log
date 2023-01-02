@@ -1900,3 +1900,122 @@
 [2023-01-02T16:39:05Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
 [2023-01-02T16:39:05Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
 [2023-01-02T16:39:05Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:39:05] "GET /jobs?f=jsonld HTTP/1.1" 200 -
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.178.84:5000
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - Press CTRL+C to quit
+[2023-01-02T16:42:48Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Restarting with stat
+[2023-01-02T16:42:49Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\log.py:70} DEBUG - Logging initialized
+[2023-01-02T16:42:49Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:607} DEBUG - Loading process manager TinyDB
+[2023-01-02T16:42:49Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'Dummy': 'pygeoapi.process.manager.dummy.DummyManager', 'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'}
+[2023-01-02T16:42:49Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.manager.tinydb_
+[2023-01-02T16:42:49Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: TinyDBManager
+[2023-01-02T16:42:49Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:609} INFO - Process manager plugin loaded
+[2023-01-02T16:42:49Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} WARNING -  * Debugger is active!
+[2023-01-02T16:42:49Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO -  * Debugger PIN: 779-813-535
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:90} DEBUG - Plugins: {'dockerTest': 'pygeoapi.process.dockerTest.DockerTestProcessor', 'test': 'pygeoapi.process.test.TestProcessor', 'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'}
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:102} DEBUG - package name: pygeoapi.process.era_critical_infrastructure_analysis
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\plugin.py:103} DEBUG - class name: ciaProcessor
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2751} DEBUG - {"mode": "async", "inputs":{"hazard": "test", "country": "test", "intensity": "C:/Daten/Inputs", "directory": "C:/Daten/Results"}}
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2765} DEBUG - {'hazard': 'test', 'country': 'test', 'intensity': 'C:/Daten/Inputs', 'directory': 'C:/Daten/Results'}
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2775} DEBUG - Asynchronous request mode detected
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\api.py:2782} DEBUG - Executing process
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:269} DEBUG - Asynchronous execution
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:42:52] "POST /processes/cia/execution HTTP/1.1" 201 -
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:21} DEBUG - Trying paths: ['C:\\Users\\Alexander Pilz\\.docker\\config.json', 'C:\\Users\\Alexander Pilz\\.dockercfg']
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\utils\config.py:25} DEBUG - Found file at path: C:\Users\Alexander Pilz\.docker\config.json
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:180} DEBUG - Found 'auths' section
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:132} DEBUG - Auth data for https://index.docker.io/v1/ is absent. Client might be using a credentials store instead.
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\docker\auth.py:187} DEBUG - Found 'credsStore' section
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "GET /version HTTP/1.1" 200 None
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/create HTTP/1.1" 201 None
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "GET /v1.41/containers/a70599ae8d64a325ee6842bd150ed4c8082320ad1c121f69b0e3ac5bc93d8315/json HTTP/1.1" 200 None
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/a70599ae8d64a325ee6842bd150ed4c8082320ad1c121f69b0e3ac5bc93d8315/start HTTP/1.1" 204 0
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/a70599ae8d64a325ee6842bd150ed4c8082320ad1c121f69b0e3ac5bc93d8315/exec HTTP/1.1" 201 None
+[2023-01-02T16:42:52Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/exec/997d2654f6d5c1fdeddb53594fd1c8d0ba4dc3caf30f443cfdf1ce5d0cb28cf6/start HTTP/1.1" 101 0
+[2023-01-02T16:42:53Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "GET /v1.41/exec/997d2654f6d5c1fdeddb53594fd1c8d0ba4dc3caf30f443cfdf1ce5d0cb28cf6/json HTTP/1.1" 200 None
+[2023-01-02T16:42:57Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:42:57Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:42:57Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:42:57Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:87} WARNING - unknown locale 'name'
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:42:58] "GET /jobs HTTP/1.1" 200 -
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:42:58] "GET /static/css/default.css HTTP/1.1" 304 -
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:42:58] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:42:58] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:42:58Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:42:58] "GET /jobs?f=jsonld HTTP/1.1" 200 -
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:00] "GET /jobs HTTP/1.1" 200 -
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:00] "GET /static/css/default.css HTTP/1.1" 304 -
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:00] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:00] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:00Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:00] "GET /jobs?f=jsonld HTTP/1.1" 200 -
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:01] "GET /jobs HTTP/1.1" 200 -
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:01] "GET /static/css/default.css HTTP/1.1" 304 -
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:01] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:01] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:01Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:01] "GET /jobs?f=jsonld HTTP/1.1" 200 -
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:02] "GET /jobs HTTP/1.1" 200 -
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:02] "GET /static/css/default.css HTTP/1.1" 304 -
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:02] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:02] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:02] "GET /jobs?f=jsonld HTTP/1.1" 200 -
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2023-01-02T16:43:02Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:02] "GET /jobs HTTP/1.1" 200 -
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:03] "GET /static/css/default.css HTTP/1.1" 304 -
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:03] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:03] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:03] "GET /jobs?f=jsonld HTTP/1.1" 200 -
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\urllib3\connectionpool.py:456} DEBUG - http://localhost:None "POST /v1.41/containers/a70599ae8d64a325ee6842bd150ed4c8082320ad1c121f69b0e3ac5bc93d8315/stop HTTP/1.1" 204 0
+[2023-01-02T16:43:03Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\process\manager\base.py:196} DEBUG - writing output to C:/Daten/Git/pygeoapi-docker-backend/tmp/cia-1e15d992-8ab4-11ed-bb13-54e1ad4efa81
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\util.py:328} DEBUG - using custom templates: C:/Daten/Git/pygeoapi-docker-backend/templates
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:08] "GET /jobs HTTP/1.1" 200 -
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:08] "GET /static/css/default.css HTTP/1.1" 304 -
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:08] "GET /static/img/pygeoapi.png HTTP/1.1" 304 -
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:08] "GET /static/img/logo.png HTTP/1.1" 304 -
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:357} DEBUG - Got locale 'de,en-US;q=0.7,en;q=0.3' from 'Accept-Language' header
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:227} DEBUG - 'en_US' matches requested 'de,en-US;q=0.7,en;q=0.3'
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\pygeoapi\l10n.py:411} DEBUG - Setting Content-Language to en-US
+[2023-01-02T16:43:08Z] {C:\Users\Alexander Pilz\AppData\Local\Programs\Python\Python310\lib\site-packages\werkzeug\_internal.py:224} INFO - 127.0.0.1 - - [02/Jan/2023 16:43:08] "GET /jobs?f=jsonld HTTP/1.1" 200 -

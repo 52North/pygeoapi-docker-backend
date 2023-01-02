@@ -129,6 +129,7 @@ class ciaProcessor(BaseProcessor):
                 #test = container.exec_run('python3 usr/src/process/process.py', detach=False) #execute process
                 container.stop() #stop container
                 #container.remove() #remove container
+                print("RIESGOS - Process ran on container!")
             except Exception:
                 print("RIESGOS - Process could not be started!")
                 traceback.print_exc()
@@ -136,7 +137,7 @@ class ciaProcessor(BaseProcessor):
             print("RIESGOS - Docker-Container could not be started!")
             traceback.print_exc()
         #genrate output of pygeoapi
-        result = open(resultDirectory + self.id + 'json',)
+        #result = open(resultDirectory + self.id + 'json',)
         dataResult = {"test":1} #json.load(result)
         outputs = dataResult
 
