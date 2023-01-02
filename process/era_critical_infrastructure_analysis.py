@@ -126,8 +126,11 @@ class ciaProcessor(BaseProcessor):
             try: 
                 #run commands in container
                 container.exec_run('/bin/sh') #start shell
+                result = {"id": self.id}
+                with open('C:/Daten/Results/' + self.id +'.json', "w") as outfile:
+                    outfile.write(json.dumps(result, indent=4))
                 #test = container.exec_run('python3 usr/src/process/process.py', detach=False) #execute process
-                container.stop() #stop container
+                #container.stop() #stop container
                 #container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
             except Exception:
@@ -136,12 +139,15 @@ class ciaProcessor(BaseProcessor):
         except Exception: 
             print("RIESGOS - Docker-Container could not be started!")
             traceback.print_exc()
-        #genrate output of pygeoapi
-        #result = open(resultDirectory + self.id + 'json',)
-        dataResult = {"test":1} #json.load(result)
-        outputs = dataResult
-
-        return mimetype, outputs #return output
+        #generate output of pygeoapi
+        try:
+            result = open(resultDirectory + '/' + self.id + '.json',)
+            dataResult = json.load(result)
+            outputs = dataResult
+            print("RIESGOS - Process finished!")
+            return mimetype, outputs #return output
+        except Exception:
+            traceback.print_exc()
 
     def __repr__(self):
         return '<ciaProcessor> {}'.format(self.name)
