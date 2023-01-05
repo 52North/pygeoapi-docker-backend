@@ -127,11 +127,13 @@ class ciaProcessor(BaseProcessor):
                 #run commands in container
                 container.exec_run('/bin/sh') #start shell
                 result = {"id": self.id}
-                with open('C:/Daten/Results/' + self.id +'.json', "w") as outfile:
-                    outfile.write(json.dumps(result, indent=4))
-                #test = container.exec_run('python3 usr/src/process/process.py', detach=False) #execute process
-                #container.stop() #stop container
-                #container.remove() #remove container
+                #with open('C:/Daten/Results/' + self.id +'.json', "w") as outfile:
+                #    outfile.write(json.dumps(result, indent=4))
+                command = 'python3 run_analysis.py --intensity_file inputs/shakemap.xml ' + ' --country ' + data["country"] + ' --hazard ' + data["hazard"] + ' --output_file outputs/' + self.id + '.geojson'
+                print(command)
+                resultData = container.exec_run(command, detach=False) #execute process
+                container.stop() #stop container
+                container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
             except Exception:
                 print("RIESGOS - Process could not be started!")
@@ -141,7 +143,7 @@ class ciaProcessor(BaseProcessor):
             traceback.print_exc()
         #generate output of pygeoapi
         try:
-            result = open(resultDirectory + '/' + self.id + '.json',)
+            result = open(resultDirectory + '/' + self.id + '.geojson',)
             dataResult = json.load(result)
             outputs = dataResult
             print("RIESGOS - Process finished!")
