@@ -304,7 +304,8 @@ paths:
       - server
   /processes/cia:
     get:
-      description: Test process for testing docker in conjuction with pygeoapi
+      description: Test process for testing docker in conjuction with pygeoapi and
+        RIESGOS
       operationId: describeCiaProcess
       parameters:
       - $ref: '#/components/parameters/f'
@@ -318,7 +319,8 @@ paths:
       - cia
   /processes/cia/execution:
     post:
-      description: Test process for testing docker in conjuction with pygeoapi
+      description: Test process for testing docker in conjuction with pygeoapi and
+        RIESGOS
       operationId: executeCiaJob
       requestBody:
         content:
@@ -342,94 +344,9 @@ paths:
           $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/ServerError.yaml
         default:
           $ref: '#/components/responses/default'
-      summary: Process dockerTest execution
+      summary: Process cia execution
       tags:
       - cia
-  /processes/dockerTest:
-    get:
-      description: Test process for testing docker in conjuction with pygeoapi
-      operationId: describeDockertestProcess
-      parameters:
-      - $ref: '#/components/parameters/f'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        default:
-          $ref: '#/components/responses/default'
-      summary: Get process metadata
-      tags:
-      - dockerTest
-  /processes/dockerTest/execution:
-    post:
-      description: Test process for testing docker in conjuction with pygeoapi
-      operationId: executeDockertestJob
-      requestBody:
-        content:
-          application/json:
-            example:
-              inputs:
-                directory: someabsolutepath
-                test: some value
-            schema:
-              $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/execute.yaml
-        description: Mandatory execute request JSON
-        required: true
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '201':
-          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/ExecuteAsync.yaml
-        '404':
-          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/NotFound.yaml
-        '500':
-          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/ServerError.yaml
-        default:
-          $ref: '#/components/responses/default'
-      summary: Process dockerTest execution
-      tags:
-      - dockerTest
-  /processes/test:
-    get:
-      description: Test process for testing the job manager
-      operationId: describeTestProcess
-      parameters:
-      - $ref: '#/components/parameters/f'
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        default:
-          $ref: '#/components/responses/default'
-      summary: Get process metadata
-      tags:
-      - test
-  /processes/test/execution:
-    post:
-      description: Test process for testing the job manager
-      operationId: executeTestJob
-      requestBody:
-        content:
-          application/json:
-            example:
-              inputs:
-                t: some value
-            schema:
-              $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/execute.yaml
-        description: Mandatory execute request JSON
-        required: true
-      responses:
-        '200':
-          $ref: '#/components/responses/200'
-        '201':
-          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/ExecuteAsync.yaml
-        '404':
-          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/NotFound.yaml
-        '500':
-          $ref: http://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/responses/ServerError.yaml
-        default:
-          $ref: '#/components/responses/default'
-      summary: Process test execution
-      tags:
-      - test
 servers:
 - description: This is a test instance
   url: http://localhost:5000/
@@ -441,9 +358,5 @@ tags:
   name: server
 - description: SpatioTemporal Asset Catalog
   name: stac
-- description: Test process for testing docker in conjuction with pygeoapi
-  name: dockerTest
-- description: Test process for testing the job manager
-  name: test
-- description: Test process for testing docker in conjuction with pygeoapi
+- description: Test process for testing docker in conjuction with pygeoapi and RIESGOS
   name: cia
