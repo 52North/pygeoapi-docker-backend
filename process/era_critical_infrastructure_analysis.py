@@ -76,7 +76,7 @@ PROCESS_METADATA = {
     'outputs': {
         'result': {
             'title': 'Result',
-            'description': 'the result of the test',
+            'description': 'Result as .geojson-File',
             'schema': {
                 'type': 'object',
                 'contentMediaType': 'application/json'
@@ -110,15 +110,18 @@ class ciaProcessor(BaseProcessor):
         
         mimetype = 'application/json'
 
-        #define evironment variables
+        #define evironment variables from request
         environment = ["id="+self.id, "hazard="+data["hazard"], "country="+data["country"]] 
 
-        client = docker.from_env() #initialize docker client
+        #initialize docker client
+        client = docker.from_env() 
         print("RIESGOS - Docker-Client:" , client)
         try:
+            #initialize directories
             resultDirectory = data["directory"]
             inputDirectory = data["intensity"]
-            print("RIESGOS - Results-Directory: ", resultDirectory)
+            
+            #start tum_era_cia image with environmet variables
             container = client.containers.run("tum_era_cia", "sleep infinity", 
             detach=True, 
             environment=environment, #add environmet variables
@@ -126,11 +129,8 @@ class ciaProcessor(BaseProcessor):
             try: 
                 #run commands in container
                 container.exec_run('/bin/sh') #start shell
-                result = {"id": self.id}
-                #with open('C:/Daten/Results/' + self.id +'.json', "w") as outfile:
-                #    outfile.write(json.dumps(result, indent=4))
+                #run process
                 command = 'python3 run_analysis.py --intensity_file inputs/shakemap.xml ' + ' --country ' + data["country"] + ' --hazard ' + data["hazard"] + ' --output_file outputs/' + self.id + '.geojson'
-                print(command)
                 resultData = container.exec_run(command, detach=False) #execute process
                 container.stop() #stop container
                 container.remove() #remove container
@@ -143,9 +143,10 @@ class ciaProcessor(BaseProcessor):
             traceback.print_exc()
         #generate output of pygeoapi
         try:
+            #open result file
             result = open(resultDirectory + '/' + self.id + '.geojson',)
-            dataResult = json.load(result)
-            outputs = dataResult
+            dataResult = json.load(result) #load result data
+            outputs = dataResult #initialize output
             print("RIESGOS - Process finished!")
             return mimetype, outputs #return output
         except Exception:
