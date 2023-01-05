@@ -1,3 +1,5 @@
 
 tum_cia/
-tmp/
+.geojson
+tmp/pyGeoAPILOG.log
+tmp/pygeoapi-process-manager.db
