@@ -34,5 +34,7 @@ Step 3: Add the following to the plugin.py ```PLUGINS``` section of the pygeoapi
 The cia process should now be pluged in correctly. I should be visible in the processes section of the pygeoapi web-interface and be executeable, for example using cURL.
 A possible request can look like this: ```curl -X POST "http://HOST:PORT/processes/cia/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"hazard\": \"earthquake\", \"country\": \"ecuador\", \"intensity\": \"PATH_TO_THE_INPUTS\", \"directory\": \"PATH_TO_THE_RESULTS\"}}"```
 
+The ```shakemap.xml``` can be used as an input for testing and should be located in the input path of the request.
+
 ## Operation
 tbd.
