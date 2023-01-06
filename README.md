@@ -34,4 +34,4 @@ Step 3: Add the following to the plugin.py ```PLUGINS``` section:
  The cia process should now be pluged in correctly. I should be visible in the processes section of the pygeoapi web-interface and be executeable, for example using cURL.
 
 ## Operation
-tbd.
+tbd. test
