@@ -1,4 +1,4 @@
-# A pygeoapi Backend for RIESGOS Processes
+# A pygeoapi backend for RIESGOS processes
 
 ## Overview
 The repository offers a process for the pygeoapi which can execute processes of the [RIESGOS](https://www.riesgos.de/de/) project which are contained in a docker image. Directories for inputs and ouputs get mounted into the docker container started by the process. The process itself and its results can controlled and accessed via the pygeoapi interface which implements concepts of the [OGC API Processes](https://ogcapi.ogc.org/processes/) standard. 
