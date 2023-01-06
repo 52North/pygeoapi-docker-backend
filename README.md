@@ -14,7 +14,7 @@ pip install pygeoapi
 Details about the configuration of the pygeoapi can be found in the [documentation](https://docs.pygeoapi.io/en/stable/index.html).
 There are a few additional steps to perform to enbale the execution of RIESGOS-processes via the pygeoapi.
 
-Step 1: Copy the era_critical_infrastructure_analysis.py into the processes folder of the pygeoapi.
+Step 1: Copy the ```era_critical_infrastructure_analysis.py``` into the processes folder of the pygeoapi.
 
 Step 2: Add the following to resources section the .config of the pygeoapi:
 ```
@@ -34,4 +34,4 @@ Step 3: Add the following to the plugin.py ```PLUGINS``` section:
  The cia process should now be pluged in correctly. I should be visible in the processes section of the pygeoapi web-interface and be executeable, for example using cURL.
 
 ## Operation
-tbd. test
+tbd.
