@@ -3,3 +3,4 @@ tum_cia/
 .geojson
 tmp/pyGeoAPILOG.log
 tmp/pygeoapi-process-manager.db
+pygeoapi-docker-backend_cmd.txt
