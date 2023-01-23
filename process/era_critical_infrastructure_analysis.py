@@ -5,6 +5,10 @@ import docker
 import traceback
 import uuid
 import json
+from urllib.request import urlopen
+import validators
+import os
+
 
 
 LOGGER = logging.getLogger(__name__)
@@ -52,7 +56,7 @@ PROCESS_METADATA = {
         },
         'intensity': {
             'title': 'intensity',
-            'description': 'absolute path to the intensity.xml',
+            'description': 'absolute path to the shakemap.xml or remote path to shakemap.xml',
             'schema': {
                 'type': 'String'
             },
@@ -120,12 +124,29 @@ class ciaProcessor(BaseProcessor):
             #initialize directories
             resultDirectory = data["directory"]
             inputDirectory = data["intensity"]
-            
-            #start tum_era_cia image with environmet variables
-            container = client.containers.run("tum_era_cia", "sleep infinity", 
-            detach=True, 
-            environment=environment, #add environmet variables
-            volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'}, inputDirectory: {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) #mount specified directory
+            print(inputDirectory)
+            if validators.url(inputDirectory):
+                print("Remote File read")
+                response = urlopen(inputDirectory)
+                input = response.read()
+
+                inputFile = open("C:/Daten/Inputs/" + self.id + "shakemap.xml", "wb") 
+                inputFile.write(input)
+                inputFile.close()
+
+                container = client.containers.run("tum_era_cia", "sleep infinity", 
+                detach=True, 
+                environment=environment, #add environmet variables
+                volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'}}) #mount specified directory
+
+                #copy data file
+                os.system('docker cp C:/Daten/Inputs/' + self.id + 'shakemap.xml ' + container.id + ':/usr/share/git/system_reliability/inputs/shakemap.xml')
+            else:
+                print("Local File read")
+                container = client.containers.run("tum_era_cia", "sleep infinity", 
+                detach=True, 
+                environment=environment, #add environmet variables
+                volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'}, inputDirectory: {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) #mount specified directory
             try: 
                 #run commands in container
                 container.exec_run('/bin/sh') #start shell
