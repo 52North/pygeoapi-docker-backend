@@ -124,9 +124,7 @@ class ciaProcessor(BaseProcessor):
             #initialize directories
             resultDirectory = data["directory"]
             inputDirectory = data["intensity"]
-            #print(inputDirectory)
-            #if validators.url(inputDirectory):
-                #print("Remote File read")
+            print(inputDirectory)
             response = urlopen(inputDirectory)
             input = response.read()
 
@@ -154,7 +152,7 @@ class ciaProcessor(BaseProcessor):
                 command = 'python3 run_analysis.py --intensity_file inputs/shakemap.xml ' + ' --country ' + data["country"] + ' --hazard ' + data["hazard"] + ' --output_file outputs/' + self.id + '.geojson'
                 resultData = container.exec_run(command, detach=False) #execute process
                 container.stop() #stop container
-                container.remove() #remove container
+                #container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
             except Exception:
                 print("RIESGOS - Process could not be started!")
