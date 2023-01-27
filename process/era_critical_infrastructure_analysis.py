@@ -128,16 +128,24 @@ class ciaProcessor(BaseProcessor):
             response = urlopen(inputDirectory)
             input = response.read()
 
-            inputFile = open("C:/Daten/Inputs/" + self.id + "shakemap.xml", "wb") 
-            inputFile.write(input)
-            inputFile.close()
+            try:
+                #read input file
+                inputFile = open("C:/Daten/Inputs/" + self.id + "shakemap.xml", "wb") 
+                inputFile.write(input)
+                inputFile.close()
+                print("RIESGOS - Remote inputs read!")
+            except Exception:
+                print("RIESGOS - Remote inputs could not be read!")
+                traceback.print_exc()
 
+
+            #start container
             container = client.containers.run("tum_era_cia", "sleep infinity", 
             detach=True, 
-            environment=environment, #add environmet variables
-            volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'}}) #mount specified directory
+            environment=environment) #, #add environmet variables
+            #volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'}}) #mount specified directory
 
-            #copy data file
+            #copy input files
             os.system('docker cp C:/Daten/Inputs/' + self.id + 'shakemap.xml ' + container.id + ':/usr/share/git/system_reliability/inputs/shakemap.xml')
         #else:
                 #print("Local File read")
@@ -151,6 +159,7 @@ class ciaProcessor(BaseProcessor):
                 #run process
                 command = 'python3 run_analysis.py --intensity_file inputs/shakemap.xml ' + ' --country ' + data["country"] + ' --hazard ' + data["hazard"] + ' --output_file outputs/' + self.id + '.geojson'
                 resultData = container.exec_run(command, detach=False) #execute process
+                os.system('docker cp ' + container.id + ':/usr/share/git/system_reliability/outputs/' + self.id + '.geojson C:/Daten/Results')
                 container.stop() #stop container
                 #container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
