@@ -67,7 +67,7 @@ PROCESS_METADATA = {
         },
         'directory': {
             'title': 'directory',
-            'description': 'Directory to be mounted to the container',
+            'description': 'Directory to be used for the results',
             'schema': {
                 'type': 'String'
             },
@@ -161,7 +161,7 @@ class ciaProcessor(BaseProcessor):
                 resultData = container.exec_run(command, detach=False) #execute process
                 os.system('docker cp ' + container.id + ':/usr/share/git/system_reliability/outputs/' + self.id + '.geojson C:/Daten/Results')
                 container.stop() #stop container
-                #container.remove() #remove container
+                container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
             except Exception:
                 print("RIESGOS - Process could not be started!")
