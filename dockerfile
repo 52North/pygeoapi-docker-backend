@@ -35,8 +35,5 @@ RUN mkdir /pygeoapi/pygeoapi/temp/
 #configure environment
 ENV PYGEOAPI_CONFIG=pyGeoAPICFGDOCKER.yml
 
-CMD [ "pygeoapi", "serve"]
-
-
 EXPOSE 5000/udp
 EXPOSE 5000/tcp

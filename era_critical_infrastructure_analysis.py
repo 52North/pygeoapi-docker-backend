@@ -9,7 +9,7 @@ from urllib.request import urlopen
 import validators
 import os
 
-#curl -X POST "http://localhost:5000/processes/cia/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"hazard\": \"earthquake\", \"country\": \"ecuador\", \"intensity\": \"https://riesgos.52north.org/shakemap_example.xml\", \"directory\": \"C:/Daten/Results\"}}"
+#curl -X POST "http://localhost:5000/processes/cia/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"hazard\": \"earthquake\", \"country\": \"ecuador\", \"intensity\": \"https://riesgos.52north.org/shakemap_example.xml\", \"outputDirectory\": \"C:/Daten/Results\", \"inputDirectory\": \"C:/Daten/Inputs\"}}"
 
 
 LOGGER = logging.getLogger(__name__)
@@ -66,8 +66,19 @@ PROCESS_METADATA = {
             'metadata': None,
             'keywords': ['intensity', 'mount']
         },
-        'directory': {
-            'title': 'directory',
+        'outputDirectory': {
+            'title': 'outputDirectory',
+            'description': 'Directory to be used for the results',
+            'schema': {
+                'type': 'String'
+            },
+            'minOccurs': 1,
+            'maxOccurs': 1,
+            'metadata': None, 
+            'keywords': ['directory', 'mount']
+        },
+        'inputDirectory': {
+            'title': 'inputDirectory',
             'description': 'Directory to be used for the results',
             'schema': {
                 'type': 'String'
@@ -127,11 +138,12 @@ class ciaProcessor(BaseProcessor):
             traceback.print_exc()
         try:
             #initialize directories
-            resultDirectory = data["directory"]
-            inputDirectory = data["intensity"]
+            resultDirectory = data["outputDirectory"]
+            inputDirectory = data["inputDirectory"]
+            inputs = data["intensity"]
             print("resultDirectory:", resultDirectory)
-            print("inputDirectory:", inputDirectory)
-            response = urlopen(inputDirectory)
+            print("inputs:", inputs)
+            response = urlopen(inputs)
             input = response.read()
 
             try:
@@ -150,7 +162,7 @@ class ciaProcessor(BaseProcessor):
             detach=True, 
             environment=environment, 
             volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'},
-            "C:/Daten/Inputs": {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) #mount specified directory
+            inputDirectory: {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) #mount specified directory
 
             try: 
                 #run commands in container
@@ -159,7 +171,7 @@ class ciaProcessor(BaseProcessor):
                 command = 'python3 run_analysis.py --intensity_file inputs/' + self.id + 'shakemap.xml ' + ' --country ' + data["country"] + ' --hazard ' + data["hazard"] + ' --output_file outputs/' + self.id + '.geojson'
                 resultData = container.exec_run(command, detach=False) #execute process
                 container.stop() #stop container
-                #container.remove() #remove container
+                container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
             except Exception:
                 print("RIESGOS - Process could not be started!")
