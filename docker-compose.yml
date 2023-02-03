@@ -1,0 +1,12 @@
+services:
+  app:
+    image: pygeoapitest
+    ports:
+      - "5000:5000"
+    volumes:
+      - C:/Daten/Results:/pygeoapi/results
+      - C:/Daten/Inputs:/pygeoapi/inputs
+      - type: bind #expose docker socket? Can be dangerous? docker breakout?
+        source: /var/run/docker.sock
+        target: /var/run/docker.sock
+      

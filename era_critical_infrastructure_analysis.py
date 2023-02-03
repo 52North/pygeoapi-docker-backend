@@ -9,6 +9,7 @@ from urllib.request import urlopen
 import validators
 import os
 
+#curl -X POST "http://localhost:5000/processes/cia/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"hazard\": \"earthquake\", \"country\": \"ecuador\", \"intensity\": \"https://riesgos.52north.org/shakemap_example.xml\", \"directory\": \"C:/Daten/Results\"}}"
 
 
 LOGGER = logging.getLogger(__name__)
@@ -117,20 +118,25 @@ class ciaProcessor(BaseProcessor):
         #define evironment variables from request
         environment = ["id="+self.id, "hazard="+data["hazard"], "country="+data["country"]] 
 
-        #initialize docker client
-        client = docker.from_env() 
-        print("RIESGOS - Docker-Client:" , client)
+        try:
+            #initialize docker client
+            client = docker.from_env() 
+            print("RIESGOS - Docker-Client:" , client)
+        except Exception:
+            print("RIESGOS - Docker-Client could not be started!")
+            traceback.print_exc()
         try:
             #initialize directories
             resultDirectory = data["directory"]
             inputDirectory = data["intensity"]
-            print(inputDirectory)
+            print("resultDirectory:", resultDirectory)
+            print("inputDirectory:", inputDirectory)
             response = urlopen(inputDirectory)
             input = response.read()
 
             try:
                 #read input file
-                inputFile = open("C:/Daten/Inputs/" + self.id + "shakemap.xml", "wb") 
+                inputFile = open("inputs/" + self.id + "shakemap.xml", "wb") 
                 inputFile.write(input)
                 inputFile.close()
                 print("RIESGOS - Remote inputs read!")
@@ -142,26 +148,18 @@ class ciaProcessor(BaseProcessor):
             #start container
             container = client.containers.run("tum_era_cia", "sleep infinity", 
             detach=True, 
-            environment=environment) #, #add environmet variables
-            #volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'}}) #mount specified directory
+            environment=environment, 
+            volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'},
+            "C:/Daten/Inputs": {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) #mount specified directory
 
-            #copy input files
-            os.system('docker cp C:/Daten/Inputs/' + self.id + 'shakemap.xml ' + container.id + ':/usr/share/git/system_reliability/inputs/shakemap.xml')
-        #else:
-                #print("Local File read")
-                #container = client.containers.run("tum_era_cia", "sleep infinity", 
-                #detach=True, 
-                #environment=environment, #add environmet variables
-                #volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'}, inputDirectory: {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) #mount specified directory
             try: 
                 #run commands in container
                 container.exec_run('/bin/sh') #start shell
                 #run process
-                command = 'python3 run_analysis.py --intensity_file inputs/shakemap.xml ' + ' --country ' + data["country"] + ' --hazard ' + data["hazard"] + ' --output_file outputs/' + self.id + '.geojson'
+                command = 'python3 run_analysis.py --intensity_file inputs/' + self.id + 'shakemap.xml ' + ' --country ' + data["country"] + ' --hazard ' + data["hazard"] + ' --output_file outputs/' + self.id + '.geojson'
                 resultData = container.exec_run(command, detach=False) #execute process
-                os.system('docker cp ' + container.id + ':/usr/share/git/system_reliability/outputs/' + self.id + '.geojson C:/Daten/Results')
                 container.stop() #stop container
-                container.remove() #remove container
+                #container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
             except Exception:
                 print("RIESGOS - Process could not be started!")
@@ -172,7 +170,7 @@ class ciaProcessor(BaseProcessor):
         #generate output of pygeoapi
         try:
             #open result file
-            result = open(resultDirectory + '/' + self.id + '.geojson',)
+            result = open('results/' + self.id + '.geojson',)
             dataResult = json.load(result) #load result data
             outputs = dataResult #initialize output
             print("RIESGOS - Process finished!")
