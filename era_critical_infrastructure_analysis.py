@@ -11,7 +11,6 @@ import os
 
 #curl -X POST "http://localhost:5000/processes/cia/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"hazard\": \"earthquake\", \"country\": \"ecuador\", \"intensity\": \"https://riesgos.52north.org/shakemap_example.xml\"}}"
 
-
 LOGGER = logging.getLogger(__name__)
 
 #: Process metadata and description
@@ -115,18 +114,15 @@ class ciaProcessor(BaseProcessor):
             print("RIESGOS - Docker-Client could not be started!")
             traceback.print_exc()
         try:
-            #initialize directories
+            #initialize directories and input files from environment
             resultDirectory = os.environ['ouputDir']
             inputDirectory = os.environ['inputDir']
             inputs = data["intensity"]
-            #print("resultDirectory:", resultDirectory)
-            #print("inputDirectory:", inputDirectory)
-            #print("inputs:", inputs)
-            response = urlopen(inputs)
-            input = response.read()
+            response = urlopen(inputs) #read remote inputs
+            input = response.read() #parse input
 
             try:
-                #read input file
+                #store input file
                 inputFile = open("inputs/" + self.id + "shakemap.xml", "wb") 
                 inputFile.write(input)
                 inputFile.close()
@@ -134,7 +130,6 @@ class ciaProcessor(BaseProcessor):
             except Exception:
                 print("RIESGOS - Remote inputs could not be read!")
                 traceback.print_exc()
-
 
             #start container
             container = client.containers.run("tum_era_cia", "sleep infinity", 
@@ -152,7 +147,7 @@ class ciaProcessor(BaseProcessor):
                 container.stop() #stop container
                 container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
-                os.remove('inputs/' + self.id + 'shakemap.xml')
+                os.remove('inputs/' + self.id + 'shakemap.xml') #clean input directory
             except Exception:
                 print("RIESGOS - Process could not be started!")
                 traceback.print_exc()
@@ -165,10 +160,11 @@ class ciaProcessor(BaseProcessor):
             result = open('results/' + self.id + '.geojson')
             dataResult = json.load(result) #load result data
             outputs = dataResult #initialize output
-            os.remove('results/' + self.id + '.geojson')
+            os.remove('results/' + self.id + '.geojson') #clean output directory
             print("RIESGOS - Process finished!")
             return mimetype, outputs #return output
         except Exception:
+            print("RIESGOS - Outputs could not be found!")
             traceback.print_exc()
 
     def __repr__(self):

@@ -37,5 +37,6 @@ RUN mkdir /pygeoapi/pygeoapi/temp/
 #configure environment
 ENV PYGEOAPI_CONFIG=pyGeoAPICFGDOCKER.yml
 
+#expose ports
 EXPOSE 5000/udp
 EXPOSE 5000/tcp
