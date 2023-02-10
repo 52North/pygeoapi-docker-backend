@@ -98,6 +98,12 @@ PROCESS_METADATA = {
                 'contentMediaType': 'application/json'
             }
         }
+    },
+    'example': {
+        'inputs': {
+            'test': 'some value',
+            'directory': 'someabsolutepath'
+        }
     }
 }
 
