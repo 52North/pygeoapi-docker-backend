@@ -22,7 +22,7 @@ PROCESS_METADATA = {
         'en': 'cia'
     },
     'description': {
-        'en': 'Test process for testing docker in conjuction with pygeoapi and RIESGOS'
+        'en': 'Test process for testing docker in conjuction with pygeoapi, Docker and RIESGOS'
     },
     'keywords': ['docker', 'test'],
     'links': [{
@@ -79,7 +79,7 @@ PROCESS_METADATA = {
         },
         'inputDirectory': {
             'title': 'inputDirectory',
-            'description': 'Directory to be used for the results',
+            'description': 'Directory to be used for the inputs',
             'schema': {
                 'type': 'String'
             },
@@ -97,12 +97,6 @@ PROCESS_METADATA = {
                 'type': 'object',
                 'contentMediaType': 'application/json'
             }
-        }
-    },
-    'example': {
-        'inputs': {
-            'test': 'some value',
-            'directory': 'someabsolutepath'
         }
     }
 }
@@ -162,7 +156,7 @@ class ciaProcessor(BaseProcessor):
             detach=True, 
             environment=environment, 
             volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'},
-            inputDirectory: {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) #mount specified directory
+            inputDirectory: {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) 
 
             try: 
                 #run commands in container
