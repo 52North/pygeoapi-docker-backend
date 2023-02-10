@@ -6,6 +6,8 @@ services:
       - "5000:5000"
     environment:
       - CONTAINER_PORT=5000
+      - inputDir=C:/Daten/Inputs
+      - ouputDir=C:/Daten/Results
     volumes:
       - C:/Daten/Results:/pygeoapi/results
       - C:/Daten/Inputs:/pygeoapi/inputs

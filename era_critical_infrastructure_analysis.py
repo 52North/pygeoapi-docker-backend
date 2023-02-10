@@ -9,7 +9,7 @@ from urllib.request import urlopen
 import validators
 import os
 
-#curl -X POST "http://localhost:5000/processes/cia/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"hazard\": \"earthquake\", \"country\": \"ecuador\", \"intensity\": \"https://riesgos.52north.org/shakemap_example.xml\", \"outputDirectory\": \"C:/Daten/Results\", \"inputDirectory\": \"C:/Daten/Inputs\"}}"
+#curl -X POST "http://localhost:5000/processes/cia/execution" -H "Content-Type: application/json" -d "{\"mode\": \"async\", \"inputs\":{\"hazard\": \"earthquake\", \"country\": \"ecuador\", \"intensity\": \"https://riesgos.52north.org/shakemap_example.xml\"}}"
 
 
 LOGGER = logging.getLogger(__name__)
@@ -65,28 +65,6 @@ PROCESS_METADATA = {
             'maxOccurs': 1,
             'metadata': None,
             'keywords': ['intensity', 'mount']
-        },
-        'outputDirectory': {
-            'title': 'outputDirectory',
-            'description': 'Directory to be used for the results',
-            'schema': {
-                'type': 'String'
-            },
-            'minOccurs': 1,
-            'maxOccurs': 1,
-            'metadata': None, 
-            'keywords': ['directory', 'mount']
-        },
-        'inputDirectory': {
-            'title': 'inputDirectory',
-            'description': 'Directory to be used for the inputs',
-            'schema': {
-                'type': 'String'
-            },
-            'minOccurs': 1,
-            'maxOccurs': 1,
-            'metadata': None, 
-            'keywords': ['directory', 'mount']
         }
     },
     'outputs': {
@@ -138,11 +116,12 @@ class ciaProcessor(BaseProcessor):
             traceback.print_exc()
         try:
             #initialize directories
-            resultDirectory = data["outputDirectory"]
-            inputDirectory = data["inputDirectory"]
+            resultDirectory = os.environ['ouputDir']
+            inputDirectory = os.environ['inputDir']
             inputs = data["intensity"]
-            print("resultDirectory:", resultDirectory)
-            print("inputs:", inputs)
+            #print("resultDirectory:", resultDirectory)
+            #print("inputDirectory:", inputDirectory)
+            #print("inputs:", inputs)
             response = urlopen(inputs)
             input = response.read()
 
@@ -161,8 +140,8 @@ class ciaProcessor(BaseProcessor):
             container = client.containers.run("tum_era_cia", "sleep infinity", 
             detach=True, 
             environment=environment, 
-            volumes={resultDirectory: {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'},
-            inputDirectory: {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) 
+            volumes={str(resultDirectory): {'bind': '/usr/share/git/system_reliability/outputs', 'mode': 'rw'},
+            str(inputDirectory): {'bind': '/usr/share/git/system_reliability/inputs', 'mode': 'rw'}}) 
 
             try: 
                 #run commands in container
@@ -173,6 +152,7 @@ class ciaProcessor(BaseProcessor):
                 container.stop() #stop container
                 container.remove() #remove container
                 print("RIESGOS - Process ran on container!")
+                os.remove('inputs/' + self.id + 'shakemap.xml')
             except Exception:
                 print("RIESGOS - Process could not be started!")
                 traceback.print_exc()
@@ -182,9 +162,10 @@ class ciaProcessor(BaseProcessor):
         #generate output of pygeoapi
         try:
             #open result file
-            result = open('results/' + self.id + '.geojson',)
+            result = open('results/' + self.id + '.geojson')
             dataResult = json.load(result) #load result data
             outputs = dataResult #initialize output
+            os.remove('results/' + self.id + '.geojson')
             print("RIESGOS - Process finished!")
             return mimetype, outputs #return output
         except Exception:
