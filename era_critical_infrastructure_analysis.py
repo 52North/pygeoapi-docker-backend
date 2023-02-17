@@ -23,7 +23,7 @@ PROCESS_METADATA = {
     'description': {
         'en': 'Test process for testing docker in conjuction with pygeoapi, Docker and RIESGOS'
     },
-    'keywords': ['docker', 'test'],
+    'keywords': ['RIESGOS', 'Earthquake'],
     'links': [{
         'type': 'text/html',
         'rel': 'about',
@@ -56,14 +56,14 @@ PROCESS_METADATA = {
         },
         'intensity': {
             'title': 'intensity',
-            'description': 'absolute path to the shakemap.xml or remote path to shakemap.xml',
+            'description': 'remote path to a shakemap.xml',
             'schema': {
                 'type': 'String'
             },
             'minOccurs': 1,
             'maxOccurs': 1,
             'metadata': None,
-            'keywords': ['intensity', 'mount']
+            'keywords': ['intensity']
         }
     },
     'outputs': {
