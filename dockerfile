@@ -11,19 +11,14 @@ COPY requirements.txt /usr/src/requirements.txt
 
 #copy process
 COPY era_critical_infrastructure_analysis.py pygeoapi/process/era_critical_infrastructure_analysis.py 
+COPY echo.py pygeoapi/process/echo.py 
 
 #copy plugin script
 RUN rm -rf pygeoapi/plugin.py
 COPY plugin.py pygeoapi/plugin.py
 
 #copy config file
-#RUN rm -rf pygeoapi-config.yml
-#COPY pyGeoAPICFGDOCKER.yml pyGeoAPICFGDOCKER.yml
 COPY pyGeoAPICFGDOCKER.yml local.config.yml
-
-#copy api description
-#COPY pyGeoAPIOpenAPIDESC.yml pyGeoAPIOpenAPIDESC.yml
-COPY pyGeoAPICFGDOCKER.yml local.openapi.yml
 
 #copy data
 COPY portolan.geojson portolan.geojson 

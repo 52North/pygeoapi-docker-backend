@@ -63,8 +63,8 @@ PLUGINS = {
         'CSV': 'pygeoapi.formatter.csv_.CSVFormatter'
     },
     'process': {
-        'HelloWorld': 'pygeoapi.process.hello_world.HelloWorldProcessor',
-        'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor'
+        'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor',
+        'echo': 'pygeoapi.process.echo.echoProcessor'
     },
     'process_manager': {
         'Dummy': 'pygeoapi.process.manager.dummy.DummyManager',

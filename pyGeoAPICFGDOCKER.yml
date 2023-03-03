@@ -91,6 +91,11 @@ resources:
               data: portolan.geojson
               id_field: id
 
+    echo:  # name of process
+            type: process  # REQUIRED (collection, process, or stac-collection)
+            processor:
+                name: echo  # Python path of process defition
+                plugin: echo.echoProcessor
     cia:  # name of process
         type: process  # REQUIRED (collection, process, or stac-collection)
         processor:
