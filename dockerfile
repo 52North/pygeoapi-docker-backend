@@ -9,6 +9,12 @@ RUN mkdir -p /usr/src/backend
 #copy requirements
 COPY requirements.txt /usr/src/requirements.txt 
 
+#copy adapted api.py
+COPY api.py pygeoapi/api.py
+
+#copy exception template
+COPY templates/exception.html pygeoapi/templates/exception.html
+
 #copy process
 COPY era_critical_infrastructure_analysis.py pygeoapi/process/era_critical_infrastructure_analysis.py 
 COPY echo.py pygeoapi/process/echo.py 

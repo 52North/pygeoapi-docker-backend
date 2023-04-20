@@ -1,6 +1,6 @@
 services:
   app:
-    image: pygeoapitest
+    image: pygeoapiconformance
     build: .
     ports:
       - "5000:5000"
