@@ -1,6 +1,6 @@
 services:
   app:
-    image: pygeoapiconformance
+    image: lexal95/pygeoapiconformance
     build: .
     ports:
       - "5000:5000"

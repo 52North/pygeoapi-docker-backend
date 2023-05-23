@@ -10,6 +10,7 @@ RUN mkdir -p /usr/src/backend
 COPY requirements.txt /usr/src/requirements.txt 
 
 #copy adapted api.py
+RUN rm -rf pygeoapi/api.py
 COPY api.py pygeoapi/api.py
 
 #copy exception template
@@ -36,7 +37,7 @@ RUN pip3 install --no-cache-dir -r /usr/src/requirements.txt
 RUN mkdir /pygeoapi/pygeoapi/temp/
 
 #configure environment
-ENV PYGEOAPI_CONFIG=pyGeoAPICFGDOCKER.yml
+ENV PYGEOAPI_CONFIG=local.config.yml
 
 #expose ports
 EXPOSE 5000/udp

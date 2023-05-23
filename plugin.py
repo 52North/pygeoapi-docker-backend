@@ -64,20 +64,23 @@ PLUGINS = {
     },
     'process': {
         'cia': 'pygeoapi.process.era_critical_infrastructure_analysis.ciaProcessor',
-        'echo': 'pygeoapi.process.echo.echoProcessor'
+        'echo': 'pygeoapi.process.echo.echoProcessor',
+        'euclideanDistance': 'pygeoapi.process.euclideanDistance.euclideanDistanceProcessor'
     },
     'process_manager': {
         'Dummy': 'pygeoapi.process.manager.dummy.DummyManager',
-        'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager'
+        'TinyDB': 'pygeoapi.process.manager.tinydb_.TinyDBManager',
+        'MongoDB': 'pygeoapi.process.manager.mongodb_.MongoDBManager'
     }
 }
-
 
 def load_plugin(plugin_type: str, plugin_def: dict) -> Any:
     """
     loads plugin by name
+
     :param plugin_type: type of plugin (provider, formatter)
     :param plugin_def: plugin definition
+
     :returns: plugin object
     """
 
@@ -110,7 +113,6 @@ def load_plugin(plugin_type: str, plugin_def: dict) -> Any:
     plugin = class_(plugin_def)
 
     return plugin
-
 
 class InvalidPluginError(Exception):
     """Invalid plugin"""

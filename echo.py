@@ -11,54 +11,58 @@ LOGGER = logging.getLogger(__name__)
 
 #: Process metadata and description
 PROCESS_METADATA = {
-    'version': '0.0.1',
-    'id': 'echo',
-    'title': {
-        'en': 'echo',
-        'fr': 'echo'
-    },
-    'description': {
-        'en': 'Echo process for testing the pygeoapi',
-        'fr': 'Echo process for testing the pygeoapi',
-    },
-    'keywords': ['echo'],
-    'links': [{
-        'type': 'text/html',
-        'rel': 'about',
-        'title': 'information',
-        'href': 'https://example.org/process',
-        'hreflang': 'en-US'
-    }],
-    'inputs': {
-        'echo': {
-            'title': 'Echo Value',
-            'description': 'Just a value',
-            'schema': {
-                'type': 'int'
-            },
-            'minOccurs': 1,
-            'maxOccurs': 1,
-            'metadata': None,  # TODO how to use?
-            'keywords': ['echo']
-        }
-    },
-    'outputs': {
-        'result': {
-            'title': 'Result',
-            'description': 'the result of the test',
-            'schema': {
-                'type': 'object',
-                'contentMediaType': 'application/json'
-            }
-        }
-    },
+  "id": "echo",
+  "title": "Echo Process",
+  "description": "This process accepts and number of input and simple echoes each input as an output.",
+  "version": "1.0.0",
+  "jobControlOptions": [
+    "async-execute",
+    "sync-execute"
+  ],
+  "outputTransmission": [
+    "value",
+    "reference"
+  ],
+  "inputs": {
+    "echoInput": {
+      "title": "String Literal Input Example",
+      "description": "This is an example of a STRING literal input.",
+      "schema": {
+        "type": "string",
+        "enum": [
+          "Value1",
+          "Value2",
+          "Value3"
+        ]
+      }
+    }
+  },
+  "outputs": {
+    "echoOutput": {
+      "schema": {
+        "type": "string",
+        "enum": [
+          "Value1",
+          "Value2",
+          "Value3"
+        ]
+      }
+    }
+  },
+  "links": [
+    {
+      "href": "https://processing.example.org/oapi-p/processes/echo/execution",
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/execute",
+      "title": "Execute endpoint",
+      "type": "endpoint"
+    }
+  ],
     'example': {
         'inputs': {
-            'echo': 'some value'
+            'echo': 'echoValue'
         }
     }
 }
-
 
 class echoProcessor(BaseProcessor):
     """Echo Processor example"""
@@ -78,15 +82,13 @@ class echoProcessor(BaseProcessor):
 
         mimetype = 'application/json'
 
-        echo = data.get('echo', None)
+        echo = data.get('echoInput', None)
 
         if echo is None:
-            raise ProcessorExecuteError('Cannot process without both points')
+            raise ProcessorExecuteError('Cannot process without echo value')
 
         outputs = {
-            'id': 'Echo',
-            #'slept for ': sleepingTime,
-            'value': echo
+            'echoOutput': echo
         }
 
         return mimetype, outputs
